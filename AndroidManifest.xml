@@ -5,6 +5,9 @@
     <uses-sdk android:targetSdkVersion="19" android:minSdkVersion="19" />
     <original-package android:name="org.illusion.settings" />
 
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+
     <application
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
@@ -31,6 +34,17 @@
                 <category android:name="org.illusion.settings.SHORTCUT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".fragments.ActiveDisplaySettings"
+            android:label="@string/active_display_settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="org.illusion.settings.SHORTCUT" />
+            </intent-filter>
+        </activity>
+
         <activity
              android:name=".ShareToClipboard"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
