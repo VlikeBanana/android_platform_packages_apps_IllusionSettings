@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Illusion Settings</string>
+    <string name="title_generalui">General UI</string>
+
+    <!-- Share to clipboard -->
+    <string name="clipboard_notification">Copied to clipboard</string>
+    <string name="title_clipboard_share">Copy to clipboard</string>
+</resources>

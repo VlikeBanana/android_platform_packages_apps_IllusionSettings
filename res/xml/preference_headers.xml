@@ -1,0 +1,7 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+    <header
+      android:id="@+id/GeneralUI"
+      android:fragment="org.illusion.settings.fragments.GeneralUI"
+      android:title="@string/title_generalui"
+      android:icon="@drawable/ic_settings_generalui" />
+</preference-headers>
