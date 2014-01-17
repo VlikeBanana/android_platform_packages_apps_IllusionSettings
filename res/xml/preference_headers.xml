@@ -14,4 +14,9 @@
       android:fragment="org.illusion.settings.fragments.ButtonSettings"
       android:title="@string/button_settings"
       android:icon="@drawable/ic_settings_button" />
+    <header
+      android:id="@+id/halo_settings"
+      android:fragment="org.illusion.settings.fragments.HaloSettings"
+      android:icon="@drawable/ic_settings_halo"
+      android:title="@string/halo_settings_title" />
 </preference-headers>
