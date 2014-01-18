@@ -19,4 +19,9 @@
       android:fragment="org.illusion.settings.fragments.HaloSettings"
       android:icon="@drawable/ic_settings_halo"
       android:title="@string/halo_settings_title" />
+    <header
+      android:id="@+id/status_settings"
+      android:fragment="org.illusion.settings.fragments.StatusSettings"
+      android:icon="@drawable/ic_settings_status"
+      android:title="@string/title_status_settings" />
 </preference-headers>

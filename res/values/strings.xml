@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Illusion Settings</string>
     <string name="title_generalui">General UI</string>
+    <string name="title_status_settings">Status Extras</string>
     <string name="ok">OK</string>
     
     <string name="global_change_warning" product="default">This setting affects all users on this phone.</string>   
@@ -116,5 +117,9 @@
     <string name="halo_notification_count_total">Total</string>
     <string name="halo_notification_count_individual">Per app</string>
     <string name="halo_notification_count_both">Both</string>
+
+    <!-- Network speed -->
+    <string name="show_network_speed">Network speed indicator</string>
+    <string name="show_network_speed_summary">Show network speed in statusbar</string>
 </resources>
 

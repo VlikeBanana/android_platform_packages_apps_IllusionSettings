@@ -66,6 +66,16 @@
         </activity>
 
         <activity
+            android:name=".fragments.StatusSettings"
+            android:label="@string/title_status_settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="org.illusion.settings.SHORTCUT" />
+            </intent-filter>
+        </activity>
+
+        <activity
              android:name=".ShareToClipboard"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
              android:label="@string/title_clipboard_share" >
